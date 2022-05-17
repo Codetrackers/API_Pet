@@ -1,7 +1,9 @@
+
+@smoke
 Feature: Pet Store
 
 
-  @wip
+
   Scenario: Find pets by status  - Positive
     Given User send get request to the right url and "/pet/findByStatus" end point
     Then status code should be 200
